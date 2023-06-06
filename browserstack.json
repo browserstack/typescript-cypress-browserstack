@@ -27,12 +27,12 @@
         }
     ],
     "run_settings": {
-        "cypress_config_file": "./cypress.config.js",
+        "cypress_config_file": "./cypress.config.ts",
         "project_name": "BStack Project",
         "build_name": "browserstack-build-1",
         "exclude": [],
         "build_tag": "Regression",
-        "parallels": "5",
+        "parallels": "3",
         "cypress_version": "12.latest",
         "npm_dependencies": {
             "typescript": "^5.0.4",

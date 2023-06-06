@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server -a localhost -p 8081 &",
+    "start": "npx http-server -a localhost -p 8082 &",
     "sample-test": "browserstack-cypress run --sync --spec ./cypress/e2e/e2e.cy.ts",
     "sample-local-test": "npm start && browserstack-cypress run --sync --spec ./cypress/e2e/localTest.cy.ts"
   },
