@@ -1,0 +1,18 @@
+{
+  "name": "cypress-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server -a localhost -p 8082 &",
+    "sample-test": "browserstack-cypress run --sync --spec ./cypress/e2e/e2e.cy.ts",
+    "sample-local-test": "npm start && browserstack-cypress run --sync --spec ./cypress/e2e/localTest.cy.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.12.0",
+    "typescript": "^5.0.4"
+  }
+}

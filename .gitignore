@@ -1,0 +1,7 @@
+node_modules
+results
+log
+local.log
+cypress/videos
+cypress/screenshots
+npm_install_debug.log
